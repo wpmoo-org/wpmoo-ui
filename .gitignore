@@ -1,0 +1,14 @@
+/node_modules
+/dist
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment files
+.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+// @charset "UTF-8";
+// /* Moo -> Pico bridge: under .wpmoo scope, map Pico variables to Moo tokens */
+// .wpmoo {
+//   --wpmoo-primary: var(--moo-color-primary, #206bc4);
+//   --wpmoo-text-color: var(--moo-color-text, #1f2937);
+//   --wpmoo-muted-color: var(--moo-color-muted, #6b7280);
+//   --wpmoo-background-color: var(--moo-color-surface, #fff);
+//   --wpmoo-card-background-color: var(--moo-color-surface, #fff);
+//   --wpmoo-card-border-color: var(--moo-color-border, #e6e9f0);
+//   --wpmoo-outline-width: var(--moo-focus-width, 0.25rem);
+//   --wpmoo-outline-color: var(--moo-focus-ring, color-mix(in srgb, var(--moo-color-primary, #206bc4) 25%, transparent));
+// }
+
+// [data-theme="dark"] .wpmoo {
+//   --wpmoo-background-color: var(--moo-color-surface, #111827);
+//   --wpmoo-card-border-color: var(--moo-color-border, #27364b);
+// }
