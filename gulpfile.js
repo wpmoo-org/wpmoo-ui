@@ -118,7 +118,7 @@ function styles() {
         const year = new Date().getFullYear();
         const banner =
           "/*!\n" +
-          " * WPMoo UI Scoped Base XXXXX\n" +
+          " * WPMoo UI Scoped Base\n" +
           ` * Copyright ${year} - Licensed under MIT\n` +
           " * Contains portions of Pico CSS (MIT). See LICENSE-PICO.md.\n" +
           " */\n";
@@ -204,8 +204,12 @@ function serve() {
   watch([paths.html.src, "sample.html"]).on("change", browserSync.reload);
 }
 
+function watchStyles() {
+  watch(paths.styles.src, styles);
+}
+
 exports.styles = styles;
 exports["pico:scope"] = picoScope;
-exports.watch = series(cleanOut, styles, copyLicenses, serve);
+exports.watch = series(cleanOut, styles, copyLicenses, watchStyles);
 exports.build = series(cleanOut, styles, copyLicenses);
 exports.default = series(cleanOut, styles, copyLicenses);
