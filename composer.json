@@ -1,0 +1,46 @@
+{
+  "name": "wpmoo-org/wpmoo-ui",
+  "description": "WPMoo UI kit (scoped Pico). Ships prebuilt CSS under css/wpmoo.css.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "ui",
+    "css",
+    "pico",
+    "scoped",
+    "wpmoo"
+  ],
+  "support": {
+    "issues": "https://github.com/wpmoo-org/wpmoo-ui/issues",
+    "source": "https://github.com/wpmoo-org/wpmoo-ui"
+  },
+  "authors": [
+    {
+      "name": "WPMoo",
+      "homepage": "https://wpmoo.org"
+    }
+  ],
+  "require": {},
+  "autoload": {},
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "0.1-dev"
+    }
+  },
+  "archive": {
+    "exclude": [
+      "/node_modules",
+      "/scss",
+      "/vendor/pico/css",
+      "/dist",
+      "/gulpfile.js",
+      "/package.json",
+      "/yarn.lock",
+      "/*.map"
+    ]
+  }
+}
