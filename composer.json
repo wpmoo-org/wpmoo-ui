@@ -1,5 +1,5 @@
 {
-  "name": "wpmoo-org/wpmoo-ui",
+  "name": "wpmoo/wpmoo-ui",
   "description": "WPMoo UI kit (scoped Pico). Ships prebuilt CSS under css/wpmoo.css.",
   "type": "library",
   "license": "MIT",
