@@ -15,10 +15,12 @@
     "issues": "https://github.com/wpmoo-org/wpmoo-ui/issues",
     "source": "https://github.com/wpmoo-org/wpmoo-ui"
   },
+  "homepage": "https://wpmoo.org",
   "authors": [
     {
       "name": "WPMoo",
-      "homepage": "https://wpmoo.org"
+      "email": "hello@wpmoo.org",
+      "homepage": "https://wpmoo.org/"
     }
   ],
   "require": {},
