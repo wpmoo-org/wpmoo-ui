@@ -118,7 +118,7 @@ function styles() {
         const year = new Date().getFullYear();
         const banner =
           "/*!\n" +
-          " * WPMoo UI Scoped Base\n" +
+          " * WPMoo UI Scoped Base XXXXX\n" +
           ` * Copyright ${year} - Licensed under MIT\n` +
           " * Contains portions of Pico CSS (MIT). See LICENSE-PICO.md.\n" +
           " */\n";
@@ -136,8 +136,8 @@ function styles() {
 function cleanOut(done) {
   const out = path.join(paths.styles.dest, paths.styles.finalOut);
   const mapFile = out + ".map";
-  try { if (fs.existsSync(out)) fs.unlinkSync(out); } catch (e) {}
-  try { if (fs.existsSync(mapFile)) fs.unlinkSync(mapFile); } catch (e) {}
+  try { if (fs.existsSync(out)) fs.unlinkSync(out); } catch (e) { }
+  try { if (fs.existsSync(mapFile)) fs.unlinkSync(mapFile); } catch (e) { }
   done();
 }
 
